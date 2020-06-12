@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5922007533787373912}
   - component: {fileID: -1666464402656810487}
   m_Layer: 0
-  m_Name: Target Positive
+  m_Name: Target Bonus
   m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83c31d9d8b5df49eb95b2e46ff31aa4d, type: 2}
+  - {fileID: 2100000, guid: 6e2c245da2100476796411cad6f23a88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -122,6 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20a926d2dbaf347e29cb9c7dc7bf85da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreAmount: 5
-  timeAmount: 0
+  scoreAmount: 0
+  timeAmount: 3
   explosionPrefab: {fileID: 0}
