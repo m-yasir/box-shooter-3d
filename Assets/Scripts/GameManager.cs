@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
-    // make game manager public static so can access this from other scripts
+    // make game manager public static so can access this from other scripts    
     public static GameManager gm;
 
     // public variables
